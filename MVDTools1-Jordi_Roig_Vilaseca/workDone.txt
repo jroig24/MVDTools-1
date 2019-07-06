@@ -1,0 +1,22 @@
+1. Design own level
+The level consists in a main corridor with a big room at the end. There is a secondary gateway, accessible jumping in a rotating platform, and in the other side there is a complementary platform accessible from the big room.
+
+2. Exporting the scene
+The scene exports as expected. Note that if changes are made, consider resetting the transfrom in max, and delete the previous created objects in the folders because sometimes the override does not work.
+
+3. New component
+
+
+4. Debug menu
+
+
+
+5. Console command
+There are two new related commands. Basically, now you are able to save "checkpoints". To create a savepoint, type "savepoint >new_point_name<". This will save the player's current position and store it with the desired name. 
+To go to a saved position, type "gotopoint >target_point_name<". This way the player will be teleported to the point, if there is a point that matches the name given.
+
+6. Loading a json
+-not done-
+
+7. Deletting an entity
+Deactivating the mesh renderer. Don't know how to delete the entity itself.
